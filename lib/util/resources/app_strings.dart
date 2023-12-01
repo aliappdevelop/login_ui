@@ -1,6 +1,6 @@
 class AppStrings {
   static const strNoRouteFound = "no_route_found";
-  static const strAppName = "Matrimony";
+  static const strAppName = "Login UI";
   static const strLoginTitle = "Welcome to Flutter";
   static const strLoginDescription = "Explore connections confidently with our secure, creatively designed mobile UI and 100% verified profiles.";
 

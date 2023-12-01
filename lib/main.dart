@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:login_ui/util/resources/app_strings.dart';
 import 'package:login_ui/util/resources/color_manager.dart';
 import 'package:login_ui/view/login_view.dart';
 
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
               child: widget!,
             );
           },
-          title: 'Login UI',
+          title: AppStrings.strAppName,
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: ColorManager.colorPrimary),
