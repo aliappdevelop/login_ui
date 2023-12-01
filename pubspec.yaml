@@ -1,0 +1,40 @@
+name: login_ui
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.0.9
+  flutter_screenutil: ^5.9.0
+  country_code_picker: ^3.0.0
+  another_flushbar: ^1.12.30
+  pinput: ^3.0.1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Work Sans
+      fonts:
+        - asset: assets/fonts/WorkSans.ttf
+    - family: Galled Stars
+      fonts:
+        - asset: assets/fonts/GalledStars.ttf
